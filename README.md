@@ -1,0 +1,1 @@
+# mapall-url-shortner
