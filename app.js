@@ -43,3 +43,5 @@ app.use(function(error, req, res, next) {
   // response with the error message 'woops'
   res.status(400).json({ message: error.message });
 });
+
+app.set('trust proxy', true);
