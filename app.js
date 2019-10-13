@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 
 // Setup server port
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 // Use Api routes in the App
 app.use('/api', apiRoutes)
