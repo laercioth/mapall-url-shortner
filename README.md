@@ -11,8 +11,8 @@ The `api` uri preceed all API endpoints and the following endpoints are currentl
 * POST `/api/urlShortener`
 
 * POST body
-`full_address : http://example.com` required
-`short : xpto` optional
+`{full_address : http://example.com
+short : xpto}`
 
 Make sure the you have nodejs installed. 
 Check it run this command:
