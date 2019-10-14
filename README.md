@@ -8,7 +8,7 @@ For save the information on database you must have execute this script on your d
 
 The `api` uri preceed all API endpoints and the following endpoints are currently available
 * GET `/api/urlShortener`
-* POST `/api/contacts`
+* POST `/api/urlShortener`
 
 Make sure the you have nodejs installed. 
 Check it run this command:
