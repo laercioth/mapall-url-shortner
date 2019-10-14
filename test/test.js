@@ -20,14 +20,14 @@ describe('API request test', function() {
     
     it('should return 200 GET', function(done) {
     	done();
-        http.get('http://localhost:3000/api/', function(res) {
+        http.get('http://localhost:8080/api/', function(res) {
              assert.equal(200, res.statusCode);
         })
     });
 
     it('should return error request 400 GET', function(done) {
     	done();
-        http.get('http://localhost:3000/api/path/doesnt/exist', function(res) {
+        http.get('http://localhost:8080/api/path/doesnt/exist', function(res) {
         	assert.equal(400, res.statusCode);
         })
     });

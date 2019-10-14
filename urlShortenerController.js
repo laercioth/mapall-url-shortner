@@ -28,10 +28,12 @@ exports.new = function (req, res) {
     }
 
     pool.connect((err, client, done) => {
+        if (err) throw err;
+
         if(!urlShortener.short){
             urlShortener.short = randomstring.generate(6);
         }
-        urlShortener.url = 'http://localhost:3000/api/';
+        urlShortener.url = 'https://mapall-test.appspot.com/api/';
         const query = 'INSERT INTO url(full_address,short, url, created_in) VALUES($1,$2,$3, $4) RETURNING *';
         const values = [urlShortener.full_address, urlShortener.short, urlShortener.url+urlShortener.short, new Date()];
         
@@ -50,12 +52,13 @@ exports.new = function (req, res) {
 // Handle view UrlShortener info
 exports.view = function (req, res) {
     const param = req.params.url;
-
+    console.log(pool);
     pool.connect((err, client, done) => {
+        
+        
         const query = 'SELECT * FROM url WHERE short = $1;';
         const values = [param];
-
-        client.query(query, values, (error, result) => {
+        pool.client.query(query, values, (error, result) => {
           done();
           
           if (error) {
