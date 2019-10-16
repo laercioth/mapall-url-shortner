@@ -7,8 +7,8 @@ For save the information on database you must have execute this script on your d
 
 
 The `api` uri preceed all API endpoints and the following endpoints are currently available
-* GET `/api/urlShortener`
-* POST `/api/urlShortener`
+* GET `/api/:shortUrl`
+* POST `/api`
 
 * POST body
 `{full_address : http://example.com,
