@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mapall-test",
+  "private_key_id": "d7d88dc85f460d68814474b9040d875e00d4123d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCi+zi87Bedd+PZ\nsdq6kRW6H1De7pVRZvsECjNVC7T9H7Jdb7Zj4bXr3dvB8wpzHlx31s3fn+MhsYdw\naGPo+yv/IswJaJ1dmri11g+X0W+g75k+6httKA1r8rc5KFa4YXBdCKjjZOm63EXX\n/f7X/fV/E2XpFpdjRjvY8VNk+Gj5A5InmuGsoW0VDCbadGPlUz9eJjUoUOb6EBpO\n0x4MWCaLKIDtJRqtXIqZGgv0QfAsIWQjxyN2yMMByw+h3BHZD+ilTjAWuDhckJXU\nF5/7rhDdPJOcfT/9PNGsqM7AHEoUGhwh5t6rOlkORmy3icqTLpej4kH00my2yBvz\nLKCOFAarAgMBAAECggEAGO7p7S0JJ9PxjZpB5gzQEBs+WfyR51Qjzqho1ffmhlrV\nBKpUcs9S73SPbApsbNQWPVclQ7LIIp1wJOgzcK8MOgnuwPm6KVnELD1FQWqO80X0\nYcWa0IYyF3OYSCw9qBNwByuN+suzXhzYqoR2+kAl0Hz9OD12h391JGk24tmF5aJB\ntjYQlOeJUhiLPKhc++oZgPsf55sWcuwMHyxiks87WHP7xEtcI9Sueuz8I2r/ge2k\nzc8yM+5LqelBljYeKCQYPS9bYiDx2PkCvxfm0LwMmxXzwl8oaCu1/eQezSmtMqvO\nctbY4yny53MuVAog+l4wDfvE000u++3gPCUvQqfFAQKBgQDPjAUMJEf0JBluxkhp\naVk1Rq79/KOCwkjNqjf+2AQ6Wtu9VJ5NhNifRIgm6YkJ6rRbq+63VMYjA8Sjae/s\n+YuvEm4EX/1d45yptrqWCB9YLgSqxANX1/4w/6Si6ZQ6/3uXVW1aaVbC2h8gkio9\n/6NwsDfqK3qZ4888jngV30Pq6wKBgQDJB8BaVW617MOZ3gz9Y1WrO3O4ZzJEWggt\n3o3m5desDmiJ/CFEx0Mod8TVJlIT1b8ueeNZuEnSsl78ciWIwQXf+BnpzJQK/Qq0\nmhqnYBq2qfG4u2VBeq1WVQZMYtodXthmf9c7YliuoRPlxq7UnphrOW2ATnmfbAy7\nzIorzdXjQQKBgFCsOmIH0DgjuAcI56ihnF1LBkYPZ3cyEZ5vpahXSv1rx7IGLCox\nkwoFV27Yo73JDyX65KU6PHHrywlB6lKQhS0d2sm0jgVqrcCCGHCs45IhAQtneW0x\ntcpR9Cqm5EkyeVXPjNvxyhmfMy4z4luK/HqW5IUPNW6P0EPXlPHbgMjVAoGAHeRi\nLMyBTtnq5+lFwzPPHEwV0/i8V7+PccqjDQ9mN3ZZAxOTmteKW+0bPpqZH8vrxqxn\nKwMlLwhI6X7Lp/8TsY8Bw2shJFUmD17O0c6PilPQ1qg+0TK9rZWs/xS/3BgrU2p1\nBaaFC0p2W/dkLcd7YI5EgwyoNxVo+0/Zx9Oul0ECgYEAq3AAg/NS8aLaHc/ZkNN0\n8ijXYrMzwlo9JzHQJvWlhEy+z33q82gJT5m2uKpO04nMi9T5r7idwFc+f2RJFa1w\nSmhnopoqLm7YvMbg+nWlNoypoXqYo0/mZNHVYo7xUj/Arcew/o/2jyue0Wo11qLB\nH3Ko6CipNzLyfcPqqMfW4ww=\n-----END PRIVATE KEY-----\n",
+  "client_email": "proxy-mapall-test@mapall-test.iam.gserviceaccount.com",
+  "client_id": "103653119594002397053",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/proxy-mapall-test%40mapall-test.iam.gserviceaccount.com"
+}
